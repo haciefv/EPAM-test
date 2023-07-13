@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.941 s <<< FAILURE! - in TestSuite
+newProjectsAreEmpty(com.epam.ta.test.RepositoryManagementTests)  Time elapsed: 1.644 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//summary[contains(@aria-label, 'Create new')]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-B1UM6LC', ip: '192.168.190.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Leopard\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 170ac58782a4555bbf8cc2f6f4d878de
+*** Element info: {Using=xpath, value=//summary[contains(@aria-label, 'Create new')]}
+	at com.epam.ta.test.RepositoryManagementTests.newProjectsAreEmpty(RepositoryManagementTests.java:42)
+
+oneCanCreateProject(com.epam.ta.test.RepositoryManagementTests)  Time elapsed: 1.528 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//summary[contains(@aria-label, 'Create new')]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-B1UM6LC', ip: '192.168.190.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Leopard\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 745b0e1c7dd105805c427fde73ba49e3
+*** Element info: {Using=xpath, value=//summary[contains(@aria-label, 'Create new')]}
+	at com.epam.ta.test.RepositoryManagementTests.oneCanCreateProject(RepositoryManagementTests.java:27)
+
+oneCanLoginGithub(com.epam.ta.test.UserAccessTests)  Time elapsed: 1.52 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "test-automation-user"
+     but: was ""
+	at com.epam.ta.test.UserAccessTests.oneCanLoginGithub(UserAccessTests.java:22)
+
